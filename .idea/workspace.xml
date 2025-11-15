@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="705b87ce-111d-4b56-ae6a-f054ba72c4ea" name="更改" comment="" />
+    <list default="true" id="705b87ce-111d-4b56-ae6a-f054ba72c4ea" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataManipulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseManipulation.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Evan-du-mosh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Evan-du-mosh/datapoject.git&quot;,
+    &quot;accountId&quot;: &quot;0ab58763-f070-4abc-bd8a-e2ea4527669e&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -38,6 +55,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -46,13 +64,21 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "应用程序.DatabaseManipulation.executor": "Run",
+    "应用程序.JdbcCsvImport.executor": "Run",
     "应用程序.ReviewsCsvImporter.executor": "Run",
     "应用程序.ReviewsImporter.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.ReviewsCsvImporter">
+  <component name="RunManager" selected="应用程序.JdbcCsvImport">
     <configuration name="DatabaseManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DatabaseManipulation" />
+      <module name="datapoject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcCsvImport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JdbcCsvImport" />
       <module name="datapoject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,8 +98,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.JdbcCsvImport" />
         <item itemvalue="应用程序.ReviewsCsvImporter" />
         <item itemvalue="应用程序.ReviewsImporter" />
       </list>
@@ -88,20 +124,5 @@
       <updated>1761205368932</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/DatabaseManipulation.java</url>
-          <line>14</line>
-          <properties class="DatabaseManipulation" method="getConnection">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
